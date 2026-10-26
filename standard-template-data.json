@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.1.0",
-    "generatedAt": "2026-10-22T07:54:09.401050843Z",
+    "version": "1.2.0",
+    "generatedAt": "2026-10-26T03:36:13.606822084Z",
     "templateType": "trip_a",
     "propertyId": "658d0f43-4f76-448f-ad26-f47ab2a8e061",
     "homepageId": "01a16161-cc3b-7852-abaa-f7b276b9f6e0"
@@ -70,11 +70,52 @@
     },
     "facilities": [
       {
+        "id": "01a16161-bf21-763a-b001-e33b0610fd06",
+        "name": "오션뷰",
+        "description": "객실 테라스에서 오션뷰를 감상할 수 있습니다.\n노을지는 석양과 아름다운 바다의 풍경을 감상해보세요.",
+        "usageGuide": "",
+        "displayOrder": 0,
+        "images": [
+          {
+            "id": "01a16161-c9c7-77f9-a1df-c2c4e84a72f1",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/01a16161-bf21-763a-b001-e33b0610fd06/main/1792635160390-aed7xfbiev.webp",
+            "sortOrder": 0,
+            "description": "",
+            "isSelected": true,
+            "blockId": null
+          },
+          {
+            "id": "01a16161-ca99-7363-924a-21f8bc159091",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/01a16161-bf21-763a-b001-e33b0610fd06/main/1792635160544-604ok5cxls.webp",
+            "sortOrder": 1,
+            "description": "",
+            "isSelected": true,
+            "blockId": null
+          },
+          {
+            "id": "01a16161-caed-74b5-9055-5a7a83594ced",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/01a16161-bf21-763a-b001-e33b0610fd06/main/1792635160619-1jhuv4mrdf.webp",
+            "sortOrder": 2,
+            "description": "",
+            "isSelected": true,
+            "blockId": null
+          },
+          {
+            "id": "01a16161-cc0d-7dcc-8d3d-3dbd9b8f0b73",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/01a16161-bf21-763a-b001-e33b0610fd06/main/1792635160934-st27pyihlp.webp",
+            "sortOrder": 3,
+            "description": "",
+            "isSelected": true,
+            "blockId": null
+          }
+        ]
+      },
+      {
         "id": "76927398-f930-4d8a-a3e2-3f6b9d50e03e",
         "name": "공용수영장",
         "description": "",
         "usageGuide": "- 이용 객실: 전 객실\n- 운영 계절: 하절기\n- 운영 기간 : 26년 07월 01일 ~ 26년 9월 12일\n- 이용 시간: 입실 후 ~ 20:00\n- 이용 복장: 수영복\n- 수영장 크기: 가로 8M 세로 8M 물높이 1.3M\n※ 6월은 금,토,일요일만 이용 가능합니다.\n※ 썬크림 금지",
-        "displayOrder": 0,
+        "displayOrder": 1,
         "images": [
           {
             "id": "01a16286-40f8-756d-832d-a9966ee8cc3b",
@@ -115,7 +156,7 @@
         "name": "개별바베큐",
         "description": "",
         "usageGuide": "- 이용 객실: 전 객실\n- 이용 장소: 개별테라스\n- 바베큐 형태: 숯불\n- 제공 구성: 숯+그릴+집게+가위\n- 이용 요금: 2인~4인 20,000원, 5인부터 30,000원 (1박기준/현장결제)\n- 이용 시간: 입실 후 ~ 22:00\n※ 숯그릴 개인지참 불가",
-        "displayOrder": 1,
+        "displayOrder": 2,
         "images": [
           {
             "id": "01a16161-c71b-7cef-978a-9b6cdd3cb181",
@@ -164,7 +205,7 @@
         "name": "개별수영장",
         "description": "",
         "usageGuide": "- 이용 객실:[풀빌라] 윤슬\n- 운영 계절: 하절기\n- 운영 기간: 26년 6월 1일 ~ 26년 9월 12일\n- 온도: 냉수\n- 이용 요금: 무료\n- 이용 시간: 09:00 ~ 20:00\n- 퇴실일 오전 이용 가능\n- 이용 복장: 수영복, 래시가드 \n- 우천 시 이용 가능",
-        "displayOrder": 2,
+        "displayOrder": 3,
         "images": [
           {
             "id": "01a16286-44b4-7870-bca4-15c9ea72528d",
@@ -197,7 +238,7 @@
         "name": "애견동반",
         "description": "",
         "usageGuide": "※ 애견 동반 시 유선으로 사전 문의 필수 (대형견, 장모견 불가)\n※ 윤슬 객실 애견동반 불가능",
-        "displayOrder": 3,
+        "displayOrder": 4,
         "images": [
           {
             "id": "01a16286-482a-7670-9b55-6d8401bf039f",
@@ -211,47 +252,6 @@
             "id": "01a16286-478b-7bf3-a387-d6d9dd455ab1",
             "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/644db3b9-efbc-4879-b051-be1d37f64a55/main/1792654329179-tavkzdaj2g.jpg",
             "sortOrder": 1,
-            "description": "",
-            "isSelected": true,
-            "blockId": null
-          }
-        ]
-      },
-      {
-        "id": "01a16161-bf21-763a-b001-e33b0610fd06",
-        "name": "오션뷰",
-        "description": "객실 테라스에서 오션뷰를 감상할 수 있습니다.\n노을지는 석양과 아름다운 바다의 풍경을 감상해보세요.",
-        "usageGuide": "",
-        "displayOrder": 4,
-        "images": [
-          {
-            "id": "01a16161-c9c7-77f9-a1df-c2c4e84a72f1",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/01a16161-bf21-763a-b001-e33b0610fd06/main/1792635160390-aed7xfbiev.webp",
-            "sortOrder": 0,
-            "description": "",
-            "isSelected": true,
-            "blockId": null
-          },
-          {
-            "id": "01a16161-ca99-7363-924a-21f8bc159091",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/01a16161-bf21-763a-b001-e33b0610fd06/main/1792635160544-604ok5cxls.webp",
-            "sortOrder": 1,
-            "description": "",
-            "isSelected": true,
-            "blockId": null
-          },
-          {
-            "id": "01a16161-caed-74b5-9055-5a7a83594ced",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/01a16161-bf21-763a-b001-e33b0610fd06/main/1792635160619-1jhuv4mrdf.webp",
-            "sortOrder": 2,
-            "description": "",
-            "isSelected": true,
-            "blockId": null
-          },
-          {
-            "id": "01a16161-cc0d-7dcc-8d3d-3dbd9b8f0b73",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/01a16161-bf21-763a-b001-e33b0610fd06/main/1792635160934-st27pyihlp.webp",
-            "sortOrder": 3,
             "description": "",
             "isSelected": true,
             "blockId": null
